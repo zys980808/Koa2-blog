@@ -1,10 +1,23 @@
+// 整体框架哦？
 const Koa = require('koa');
+
+// 这是做什么的
 const path = require('path')
+
+// 表单解析？（莫非是解析JSON的）
 const bodyParser = require('koa-bodyparser');
+
+// 模板引擎？
 const ejs = require('ejs');
+
+// 数据库操作
 const session = require('koa-session-minimal');
 const MysqlStore = require('koa-mysql-session');
+
+// 如果没有module.exports 会怎么样
 const config = require('./config/default.js');
+
+// 路由？（什么是路由）
 const router = require('koa-router')
 const views = require('koa-views')
 // const koaStatic = require('koa-static')

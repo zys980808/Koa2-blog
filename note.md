@@ -6,6 +6,7 @@
 
 ## npm
 
+- 更新程序安装树 ```sudo apt-get update```
 - 安装并添加到依赖 ```npm install [pkgname] --save```
 - 安装并添加到开发依赖 ```npm install [pkgname] --save-dev```
 - 安装指定版本的包 ```npm install [pkgname@version]```
@@ -26,10 +27,14 @@ $ cnpm install [name]
 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
 ```
 [解决方法](https://blog.csdn.net/hotlinhao/article/details/9048803)
+
 ## node
 
-- 更新软件树 
-```sudo apt-get install```
+- 暴露接口 
+```js 
+// config/default.js #15
+module.exports = config
+```
 
 ## es6
 - [学习链接](http://es6.ruanyifeng.com/#docs/let)
@@ -108,6 +113,12 @@ while(true){
 }
 ```
 
+## EJS
+
+- [链接](https://ejs.bootcss.com/)
+- [Playground](https://ionicabizau.github.io/ejs-playground/)
+- 很好用，之后研究一下怎么和Vue结合在一起
+
 # 其他
 
 ## cmder - github
@@ -117,7 +128,6 @@ while(true){
 ## ssh 连接电脑
 
 - 端口转发
-- 钟文谦
 
 ## pm2
 
@@ -126,7 +136,9 @@ while(true){
 npm install -g pm2
 ```
 
-## 后续学习
+
+
+# 后续学习
 
 - Javascript异步，ES6认真学
 

@@ -11,4 +11,5 @@ const config = {
   }
 }
 
+// exports 暴露接口
 module.exports = config
