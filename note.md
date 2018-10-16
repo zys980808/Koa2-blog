@@ -113,7 +113,7 @@ while(true){
 }
 ```
 
-## EJS
+## EJSc
 
 - [链接](https://ejs.bootcss.com/)
 - [Playground](https://ionicabizau.github.io/ejs-playground/)
