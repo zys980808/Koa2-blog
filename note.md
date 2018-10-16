@@ -1,14 +1,20 @@
 # 剑龙迭代
 
-## cmder - github
-
-## ssh 传文件 - scp 命令 （文件夹-r)
-
-## 淘宝镜像
-
 ## Koa-blog
 
 [Github](https://github.com/zys980808/Koa2-blog)
+
+## npm
+
+- 安装并添加到依赖 ```npm install [pkgname] --save```
+- 安装并添加到开发依赖 ```npm install [pkgname] --save-dev```
+- 安装指定版本的包 ```npm install [pkgname@version]```
+- 
+- 淘宝镜像
+```
+$ npm install -g cnpm --registry=https://registry.npm.taobao.org
+$ cnpm install [name]
+```
 
 ## mysql 
 
@@ -103,6 +109,10 @@ while(true){
 ```
 
 # 其他
+
+## cmder - github
+
+## ssh 传文件 - scp 命令 （文件夹-r)
 
 ## ssh 连接电脑
 
